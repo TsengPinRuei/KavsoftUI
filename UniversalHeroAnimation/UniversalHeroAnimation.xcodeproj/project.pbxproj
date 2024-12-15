@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		541EB6432B85F72B00A99F41 /* UniversalHeroAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541EB6422B85F72B00A99F41 /* UniversalHeroAnimationApp.swift */; };
+		541EB6452B85F72B00A99F41 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541EB6442B85F72B00A99F41 /* ContentView.swift */; };
+		541EB6472B85F72C00A99F41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 541EB6462B85F72C00A99F41 /* Assets.xcassets */; };
+		541EB64B2B85F72C00A99F41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 541EB64A2B85F72C00A99F41 /* Preview Assets.xcassets */; };
+		541EB6542B85F7AF00A99F41 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541EB6532B85F7AF00A99F41 /* Hero.swift */; };
+		541EB6572B85F7EC00A99F41 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541EB6562B85F7EC00A99F41 /* ViewExtension.swift */; };
+		541EB6592B85FADC00A99F41 /* HeroLayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541EB6582B85FADC00A99F41 /* HeroLayerView.swift */; };
+		541EB65B2B85FB4E00A99F41 /* PassWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541EB65A2B85FB4E00A99F41 /* PassWindow.swift */; };
+		541EB65D2B85FD1900A99F41 /* SourceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541EB65C2B85FD1900A99F41 /* SourceView.swift */; };
+		541EB65F2B85FD3300A99F41 /* DestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541EB65E2B85FD3300A99F41 /* DestinationView.swift */; };
+		541EB6622B85FD8100A99F41 /* HeroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541EB6612B85FD8100A99F41 /* HeroModel.swift */; };
+		541EB6642B85FE6F00A99F41 /* HeroKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541EB6632B85FE6F00A99F41 /* HeroKey.swift */; };
+		541EB6662B85FEE600A99F41 /* HeroInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541EB6652B85FEE600A99F41 /* HeroInformation.swift */; };
+		541EB6682B8603F800A99F41 /* HeroLayerViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541EB6672B8603F800A99F41 /* HeroLayerViewModifier.swift */; };
+		541EB66A2B860CC400A99F41 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541EB6692B860CC400A99F41 /* Item.swift */; };
+		541EB66C2B860DE300A99F41 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541EB66B2B860DE300A99F41 /* AnimationView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		541EB63F2B85F72B00A99F41 /* UniversalHeroAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversalHeroAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		541EB6422B85F72B00A99F41 /* UniversalHeroAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalHeroAnimationApp.swift; sourceTree = "<group>"; };
+		541EB6442B85F72B00A99F41 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		541EB6462B85F72C00A99F41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		541EB6482B85F72C00A99F41 /* UniversalHeroAnimation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UniversalHeroAnimation.entitlements; sourceTree = "<group>"; };
+		541EB64A2B85F72C00A99F41 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		541EB6532B85F7AF00A99F41 /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		541EB6562B85F7EC00A99F41 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		541EB6582B85FADC00A99F41 /* HeroLayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroLayerView.swift; sourceTree = "<group>"; };
+		541EB65A2B85FB4E00A99F41 /* PassWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassWindow.swift; sourceTree = "<group>"; };
+		541EB65C2B85FD1900A99F41 /* SourceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceView.swift; sourceTree = "<group>"; };
+		541EB65E2B85FD3300A99F41 /* DestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationView.swift; sourceTree = "<group>"; };
+		541EB6612B85FD8100A99F41 /* HeroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroModel.swift; sourceTree = "<group>"; };
+		541EB6632B85FE6F00A99F41 /* HeroKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroKey.swift; sourceTree = "<group>"; };
+		541EB6652B85FEE600A99F41 /* HeroInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroInformation.swift; sourceTree = "<group>"; };
+		541EB6672B8603F800A99F41 /* HeroLayerViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroLayerViewModifier.swift; sourceTree = "<group>"; };
+		541EB6692B860CC400A99F41 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		541EB66B2B860DE300A99F41 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		541EB63C2B85F72B00A99F41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		541EB6362B85F72B00A99F41 = {
+			isa = PBXGroup;
+			children = (
+				541EB6412B85F72B00A99F41 /* UniversalHeroAnimation */,
+				541EB6402B85F72B00A99F41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		541EB6402B85F72B00A99F41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				541EB63F2B85F72B00A99F41 /* UniversalHeroAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		541EB6412B85F72B00A99F41 /* UniversalHeroAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				541EB6462B85F72C00A99F41 /* Assets.xcassets */,
+				541EB6552B85F7CA00A99F41 /* Extension */,
+				541EB6602B85FD7600A99F41 /* Model */,
+				541EB6492B85F72C00A99F41 /* Preview Content */,
+				541EB6482B85F72C00A99F41 /* UniversalHeroAnimation.entitlements */,
+				541EB6422B85F72B00A99F41 /* UniversalHeroAnimationApp.swift */,
+				541EB6512B85F79900A99F41 /* View */,
+				541EB6522B85F79C00A99F41 /* ViewModel */,
+			);
+			path = UniversalHeroAnimation;
+			sourceTree = "<group>";
+		};
+		541EB6492B85F72C00A99F41 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				541EB64A2B85F72C00A99F41 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		541EB6512B85F79900A99F41 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				541EB66B2B860DE300A99F41 /* AnimationView.swift */,
+				541EB6442B85F72B00A99F41 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		541EB6522B85F79C00A99F41 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				541EB65E2B85FD3300A99F41 /* DestinationView.swift */,
+				541EB6532B85F7AF00A99F41 /* Hero.swift */,
+				541EB6582B85FADC00A99F41 /* HeroLayerView.swift */,
+				541EB6672B8603F800A99F41 /* HeroLayerViewModifier.swift */,
+				541EB65A2B85FB4E00A99F41 /* PassWindow.swift */,
+				541EB65C2B85FD1900A99F41 /* SourceView.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		541EB6552B85F7CA00A99F41 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				541EB6562B85F7EC00A99F41 /* ViewExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		541EB6602B85FD7600A99F41 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				541EB6652B85FEE600A99F41 /* HeroInformation.swift */,
+				541EB6632B85FE6F00A99F41 /* HeroKey.swift */,
+				541EB6612B85FD8100A99F41 /* HeroModel.swift */,
+				541EB6692B860CC400A99F41 /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		541EB63E2B85F72B00A99F41 /* UniversalHeroAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 541EB64E2B85F72C00A99F41 /* Build configuration list for PBXNativeTarget "UniversalHeroAnimation" */;
+			buildPhases = (
+				541EB63B2B85F72B00A99F41 /* Sources */,
+				541EB63C2B85F72B00A99F41 /* Frameworks */,
+				541EB63D2B85F72B00A99F41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UniversalHeroAnimation;
+			productName = UniversalHeroAnimation;
+			productReference = 541EB63F2B85F72B00A99F41 /* UniversalHeroAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		541EB6372B85F72B00A99F41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					541EB63E2B85F72B00A99F41 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 541EB63A2B85F72B00A99F41 /* Build configuration list for PBXProject "UniversalHeroAnimation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 541EB6362B85F72B00A99F41;
+			productRefGroup = 541EB6402B85F72B00A99F41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				541EB63E2B85F72B00A99F41 /* UniversalHeroAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		541EB63D2B85F72B00A99F41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541EB64B2B85F72C00A99F41 /* Preview Assets.xcassets in Resources */,
+				541EB6472B85F72C00A99F41 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		541EB63B2B85F72B00A99F41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541EB66C2B860DE300A99F41 /* AnimationView.swift in Sources */,
+				541EB6452B85F72B00A99F41 /* ContentView.swift in Sources */,
+				541EB65D2B85FD1900A99F41 /* SourceView.swift in Sources */,
+				541EB6432B85F72B00A99F41 /* UniversalHeroAnimationApp.swift in Sources */,
+				541EB6682B8603F800A99F41 /* HeroLayerViewModifier.swift in Sources */,
+				541EB6572B85F7EC00A99F41 /* ViewExtension.swift in Sources */,
+				541EB6592B85FADC00A99F41 /* HeroLayerView.swift in Sources */,
+				541EB6642B85FE6F00A99F41 /* HeroKey.swift in Sources */,
+				541EB66A2B860CC400A99F41 /* Item.swift in Sources */,
+				541EB6662B85FEE600A99F41 /* HeroInformation.swift in Sources */,
+				541EB65F2B85FD3300A99F41 /* DestinationView.swift in Sources */,
+				541EB65B2B85FB4E00A99F41 /* PassWindow.swift in Sources */,
+				541EB6542B85F7AF00A99F41 /* Hero.swift in Sources */,
+				541EB6622B85FD8100A99F41 /* HeroModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		541EB64C2B85F72C00A99F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		541EB64D2B85F72C00A99F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		541EB64F2B85F72C00A99F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UniversalHeroAnimation/UniversalHeroAnimation.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UniversalHeroAnimation/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.UniversalHeroAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		541EB6502B85F72C00A99F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UniversalHeroAnimation/UniversalHeroAnimation.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UniversalHeroAnimation/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.UniversalHeroAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		541EB63A2B85F72B00A99F41 /* Build configuration list for PBXProject "UniversalHeroAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541EB64C2B85F72C00A99F41 /* Debug */,
+				541EB64D2B85F72C00A99F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		541EB64E2B85F72C00A99F41 /* Build configuration list for PBXNativeTarget "UniversalHeroAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541EB64F2B85F72C00A99F41 /* Debug */,
+				541EB6502B85F72C00A99F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 541EB6372B85F72B00A99F41 /* Project object */;
+}
